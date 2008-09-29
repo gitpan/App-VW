@@ -1,0 +1,23 @@
+--- #YAML:1.0
+name:                App-VW
+version:             0.01
+abstract:            a deployment system for Squatting+Continuity web apps
+license:             ~
+author:              
+    - John BEPPU <beppu@cpan.org>
+generated_by:        ExtUtils::MakeMaker version 6.44
+distribution_type:   module
+requires:     
+    AnyEvent:                      0
+    App::CLI:                      0
+    Event:                         0
+    File::Copy:                    0
+    File::ShareDir:                0
+    Squatting:                     0.52
+    Sys::Syslog:                   0.13
+    Test::More:                    0
+    Time::HiRes:                   0
+    YAML:                          0
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3
